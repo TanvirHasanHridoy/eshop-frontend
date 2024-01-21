@@ -3,6 +3,9 @@ import Offer from "./Offer";
 import Banner from "./Banner";
 import Categories from "./Categories";
 import InitialProducts from "./InitialProducts";
+// import Footer from "../footer/Footer";
+import Footer from "../footer/Footer";
+import Newsletter from "../newsletter/Newsletter";
 
 const Hero = () => {
   return (
@@ -11,6 +14,8 @@ const Hero = () => {
       <Offer />
       <Categories />
       <InitialProducts />
+      <Newsletter />
+      <Footer />
     </div>
   );
 };
