@@ -12,7 +12,7 @@ const Navbar = () => {
             id="search"
             placeholder="Search Items"
           />
-          <BsSearch className="absolute right-5 top-1/2 -translate-y-1/2 text-base" />
+          <BsSearch className="absolute right-5 top-1/2 -translate-y-1/2 text-base cursor-pointer hover:scale-105" />
         </div>
         <div className=" flex-[1]  font-bold text-4xl  text-center flex justify-center items-center">
           LOGO
